@@ -2,9 +2,9 @@
     <div class="mx-auto px-4 w-full">
         <div class="h-16 flex justify-between items-center border-b-2 border-gray-100 mx-auto px-4 w-full">
             <div class="flex gap-x-4 items-center">
-                <router-link class="font-medium text-gray-500 hover:text-gray-900" to="/">Home</router-link>
-                <router-link class="font-medium text-gray-500 hover:text-gray-900" to="/about">About</router-link>
-                <router-link class="font-medium text-gray-500 hover:text-gray-900" to="/todo">To-do</router-link>
+                <router-link active-class="text-gray-900" class="font-medium text-gray-500 hover:text-gray-900" to="/">Home</router-link>
+                <router-link active-class="text-gray-900" class="font-medium text-gray-500 hover:text-gray-900" to="/about">About</router-link>
+                <router-link active-class="text-gray-900" class="font-medium text-gray-500 hover:text-gray-900" to="/todo">To-do</router-link>
             </div>
             <div>
                 <p class="font-medium text-lg text-gray-900">Vite</p>

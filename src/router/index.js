@@ -8,7 +8,7 @@ import Todo from '@/views/Todo.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/dashboard',
     component: DefaultLayout,
     children: [
       {
